@@ -2,11 +2,20 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Courses I taught.
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+**Northwestern University**
 
-Organize your courses by years, topics, or universities, however you like!
+- CS340: Introduction to Computer Networks. 
+  - Quarters: [Fall 2023](https://northwestern-cs340.github.io/fall2023/), [Fall 2022](https://northwestern-cs340.github.io/fall2022/),[Winter 2022](https://networks.cs.northwestern.edu/CS340-w22/syllabus.html) (co-teaching with Prof. Aleksandar Kuzmanovic)
+
+
+
+**Universidad de Buenos Aires**
+
+- 75.33/75.43/95.40: Introduction to Distributed Systems
+  - **Instructor**. Semesters: S2-2019, S1-2020, S2-2020
+  - **Head of TAs**. Semesters: S1-2017, S1-2018, S2-2018, S1-2019
