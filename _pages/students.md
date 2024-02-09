@@ -9,9 +9,7 @@ nav_order: 5
 <!-- _pages/students.md -->
 <div class="publications">
 
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f students -q @*[year={{y}}]* %}
-{% endfor %}
+
+{% bibliography -f students%}
 
 </div>
