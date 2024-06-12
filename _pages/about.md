@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<h5 style="color: red;">I'll be on the job market starting in Fall 2024!</h5>
+<h5 style="color: red;"> <b>I'll be on the job market starting in Fall 2024!</b></h5>
 
 Hi there!
 
