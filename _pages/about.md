@@ -6,11 +6,11 @@ subtitle: firstname %D0T% lastname %AT% northwestern %D0T% edu
 
 profile:
   align: right
-  image: EC.jpg
+  image: EstebanCarisimo-1.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>3527 Mudd Library</p>
-    <p>Department of Computer Science</p>
+    <p>3215 Mudd Library</p>
+    <p>Dept. of Computer Science</p>
     <p>Northwestern University</p>
 
 news: true # includes a list of news items
