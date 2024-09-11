@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our two [IMC](https://conferences.sigcomm.org/imc/2024/) papers, [_Darksim_](/assets/pdf/papers/2024-imc-darksim.pdf) and [_Government Hosting Choices_](/assets/pdf/papers/2024-imc-govt.pdf) and both uploaded. Check them out!
+Our two [IMC](https://conferences.sigcomm.org/imc/2024/) papers, [Darksim](/assets/pdf/papers/2024-imc-darksim.pdf) and [Government Hosting Choices](/assets/pdf/papers/2024-imc-govt.pdf) and both uploaded. Check them out!
