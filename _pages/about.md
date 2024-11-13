@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 <h5 style="color: red;"> <b>I am on the job market!</b></h5>
 
-<a href="/assets/pdf/job-market-2024/research_statement_2024.pdf" class="btn btn-sm z-depth-0" role="button">Research Statement</a>
+<a href="/assets/pdf/job-market-2024/research_statement_2024.pdf" role="button">Research Statement</a>
 
 Hi there!
 
