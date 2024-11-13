@@ -23,6 +23,8 @@ social: true # includes social icons at the bottom of the page
 
 <div class="links"> 
 <a href="/assets/pdf/job-market-2024/research_statement_2024.pdf" class="btn btn-sm z-depth-10" role="button">Research Statement</a>
+<a href="/assets/pdf/job-market-2024/teaching_statement_2024.pdf" class="btn btn-sm z-depth-10" role="button">Teaching Statement</a>
+<a href="/assets/pdf/job-market-2024/diversity_statement_2024.pdf" class="btn btn-sm z-depth-10" role="button">DEI Statement</a>
 </div>
 
 Hi there!
