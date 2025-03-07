@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - estcarisimo
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - estcarisimo/jitterbug
+  - NU-AquaLab/as2orgplus
+  - NU-AquaLab/2024-SIGCOMM-VE
+  - InetIntel/internet_outages
+  - estcarisimo/Netflix-OCA-Servers-Locator
+  - estcarisimo/map-ip-to-asn
+
