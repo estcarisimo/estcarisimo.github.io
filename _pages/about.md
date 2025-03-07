@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: firstname %D0T% lastname %AT% northwestern %D0T% edu
+subtitle: esteban.carisimo@northwestern.edu
 
 profile:
   align: right
