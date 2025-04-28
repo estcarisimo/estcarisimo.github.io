@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: Tools
+title: tools
 description: Tools and Repositories
 nav: true
 nav_order: 4
