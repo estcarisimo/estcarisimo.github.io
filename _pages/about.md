@@ -6,7 +6,7 @@ subtitle: esteban.carisimo@northwestern.edu
 
 profile:
   align: right
-  image: EstebanCarisimo-1.jpg
+  image: EC.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>3215 Mudd Library</p>
