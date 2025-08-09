@@ -1,53 +1,31 @@
----
-layout: page
-permalink: /repositories/
-title: tools
-description: Tools and Repositories
-nav: true
-nav_order: 4
----
+# 1. Configuration
+SAMPLE_RATE  = 16000   # YAMNet expects 16 kHz mono
+# YAMNet expects exactly 15 600 samples (0.975 s at 16 kHz) per inference window
+SAMPLES_PER_WINDOW = 15600
+WINDOW_SEC   = SAMPLES_PER_WINDOW / SAMPLE_RATE  # ≈0.975 s
 
-<!-- {% if site.data.repositories.github_users %}
+# 3. Audio capture thread
+stream = sd.InputStream(
+    samplerate=SAMPLE_RATE,
+    device=DEVICE,
+    channels=CHANNELS,
+    blocksize=SAMPLES_PER_WINDOW,
+    callback=audio_callback,
+)
 
-## GitHub users
+# 4. Main detection loop
+def detect_loop():
+    while True:
+        chunk = q.get()
+        mono  = np.squeeze(chunk).astype(np.float32)
+        # Ensure the tensor has exactly 15 600 samples as YAMNet requires
+        if mono.shape[0] != SAMPLES_PER_WINDOW:
+            if mono.shape[0] > SAMPLES_PER_WINDOW:
+                mono = mono[:SAMPLES_PER_WINDOW]
+            else:  # pad with zeros if microphone underruns
+                mono = np.pad(mono, (0, SAMPLES_PER_WINDOW - mono.shape[0]), mode='constant')
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %} -->
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
-
-## Other Services
-
-<ul>
-    <li><a href="https://thealeph.ai">The Aleph</a></li>
-</ul>
+        interpreter.set_tensor(input_details[0]['index'], np.expand_dims(mono, axis=0))  # Provide correctly sized vector to model
+        interpreter.invoke()
+        output = interpreter.get_tensor(output_details[0]['index'])
+        ...
