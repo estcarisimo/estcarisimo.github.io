@@ -11,10 +11,10 @@ group :jekyll_plugins do
     gem 'jekyll-link-attributes'
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
-    gem 'jekyll-regex-replace'
+    # gem 'jekyll-regex-replace' # Temporarily disabled for Docker compatibility
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
-    gem 'jekyll-tabs'
+    # gem 'jekyll-tabs' # Temporarily disabled for Docker compatibility
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
@@ -23,7 +23,7 @@ group :jekyll_plugins do
     gem 'webrick'
 end
 group :other_plugins do
-    gem 'css_parser'
+    # gem 'css_parser' # Temporarily disabled for Docker compatibility
     gem 'feedjira'
     gem 'httparty'
 end
