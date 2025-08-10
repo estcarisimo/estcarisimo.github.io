@@ -6,9 +6,9 @@ description: Amazing work of the students I supervised. Some there are some join
 nav: true
 nav_order: 5
 ---
+
 <!-- _pages/students.md -->
 <div class="publications">
-
 
 {% bibliography -f students%}
 

@@ -9,10 +9,8 @@ nav_order: 6
 
 **Northwestern University**
 
-- CS340: Introduction to Computer Networks. 
+- CS340: Introduction to Computer Networks.
   - Quarters: [Fall 2023](https://northwestern-cs340.github.io/fall2023/), [Fall 2022](https://northwestern-cs340.github.io/fall2022/),[Winter 2022](https://networks.cs.northwestern.edu/CS340-w22/syllabus.html) (co-teaching with Prof. Aleksandar Kuzmanovic)
-
-
 
 **Universidad de Buenos Aires**
 
