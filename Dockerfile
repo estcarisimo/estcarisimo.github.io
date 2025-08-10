@@ -34,7 +34,7 @@ WORKDIR /srv/jekyll
 
 RUN bundle install --no-cache
 # && rm -rf /var/lib/gems/3.1.0/cache
-EXPOSE 8080
+EXPOSE 8082
 
 COPY bin/entry_point.sh /tmp/entry_point.sh
 
