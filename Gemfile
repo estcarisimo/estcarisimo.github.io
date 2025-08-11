@@ -26,4 +26,6 @@ group :other_plugins do
     # gem 'css_parser' # Temporarily disabled for Docker compatibility
     gem 'feedjira'
     gem 'httparty'
+    gem 'nokogiri'
+    gem 'activesupport'
 end
