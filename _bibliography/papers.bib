@@ -3,18 +3,19 @@
     title = {Take The Long Way Home - Distant Peering to the Cloud},
     journal = {IEEE ToN},
     year = {2025},
-    month = {08}
+    month = {08},
+    abstract = "We characterize distant peering to cloud providers using a novel traceroute campaign, revealing that while most networks peer nearby, over 20\% travel thousands of kilometers, often to North America, driven by cost, peering, and content factors.",
     pdf={papers/2025-ToN-cloud.pdf}
 }
 
 @inproceedings{calypso:sigcomm:poster,
-    author = {Caleb J. Wang and Ying Zhang and Oscar Dong and Esteban Carisimo  and  Fabián E. Bustamante and Ram Durairajan},
-    title = {Threading the Ocean: Mapping Digital Routes Across
-Submarine Cables using Calypso},
+    author = {Caleb J. Wang and Ying Zhang and Oscar Dong and Esteban Carisimo and Fabián E. Bustamante and Ram Durairajan},
+    title = {Threading the Ocean: Mapping Digital Routes Across Submarine Cables using Calypso},
     booktitle = {Proc. of SIGCOMM Shorts},
     year = {2025},
     month = {9},
-    pdf={poster/2025-SIGCOMM-Calypso.pdf}
+    pdf={posters/2025-SIGCOMM-Calypso.pdf},
+    google_scholar_id={ULOm3_A8WrAC}
 }
 
 @inproceedings{aleph:sigcomm:poster,
@@ -24,7 +25,7 @@ Submarine Cables using Calypso},
     booktitle = {Proc. of SIGCOMM Posters},
     year = {2024},
     month = {6},
-    pdf={posters/2024-SIGCOMM-aleph.pdf}
+    pdf={posters/2024-SIGCOMM-aleph.pdf},
 }
 
 @inproceedings{cloud:sigcomm:poster,
@@ -52,8 +53,11 @@ Submarine Cables using Calypso},
     booktitle = {ACM IMC},
     year = {2025},
     month = {10},
+    selected={true},
     abstract="We introduce Borges (Better ORGanizations Entities mappingS), a novel framework for improving AS-to-Organization mappings using Large Language Models (LLMs). Existing approaches, such as AS2Org and its extensions, rely on static WHOIS data and rule-based extraction from PeeringDB records, limiting their ability to capture complex, dynamic organizational structures. Borges overcomes these limitations by combining traditional sources with few-shot LLM prompting to extract sibling relationships from free-text fields in PeeringDB, and by introducing website-based inference using redirect chains, domain similarity, and favicon analysis. Our evaluation shows that Borges outperforms prior methods, achieving a 7\% improvement in sibling ASN identification and an Organization Factor score of 0.3576. It also expands the recognized user base of large Internet conglomerates by 192 million users (approx. 5\% of the global Internet population) and improves geographic footprint estimates across multiple regions.",
-    pdf={papers/2025-IMC-borges.pdf}
+    pdf={papers/2025-IMC-borges.pdf},
+    google_scholar_id={Zph67rFs4hoC},
+    code={https://github.com/NU-AquaLab/borges}
 }
 
 @inproceedings{aleph:conext,
@@ -64,7 +68,10 @@ Submarine Cables using Calypso},
     month = {12},
     abstract="Geolocating network devices is essential for various research areas. Yet, despite notable advancements, it continues to be one of the most challenging issues for experimentalists. An approach for geolocating that has proved effective is leveraging geolocating hints in PTR records associated with network devices. We argue that Large Language Models (LLMs), rather than humans, are better equipped to identify patterns in DNS PTR
  of tools like Hoiho. We introduce an approach that leverages LLMs to classify PTR records, and generate regular expressions for these classes, and hint-to-location mapping. We present preliminary results showing the applicability of using LLMs as a scalable approach to leverage PTR records for infrastructure geolocation.",
- pdf={papers/2025-the-aleph.pdf}
+    pdf={papers/2025-the-aleph.pdf},
+    selected={true},
+    google_scholar_id={kNdYIx-mwKoC},
+    website={https://thealeph.ai/},
 }
 
 
@@ -73,9 +80,10 @@ Submarine Cables using Calypso},
     title = {DarkSim: A similarity-based time-series analytic framework for darknet traffic},
     booktitle = {ACM IMC},
     year = {2024},
-    month = "nov",
+    month = {11},
     abstract="Network Telescopes, often referred to as darknets, capture unsolicited traffic directed toward advertised but unused IP spaces, enabling researchers and operators to monitor malicious, Internet-wide network phenomena such as vulnerability scanning, botnet propagation, and DoS backscatter. Detecting these events, however, has become increasingly challenging due to the growing traffic volumes that telescopes receive. To address this, we introduce DarkSim, a novel analytic framework that utilizes Dynamic Time Warping to measure similarities within the high-dimensional time series of network traffic. DarkSim combines traditional raw packet processing with statistical approaches, identifying traffic anomalies and enabling rapid time-to-insight. We evaluate our framework against DarkGLASSO, an existing method based on the Graphical LASSO algorithm, using data from the UCSD Network Telescope. Based on our manually classified detections, DarkSim showcased perfect precision and an overlap of up to 91% of DarkGLASSO's detections in contrast to DarkGLASSO's maximum of 73.3\% precision and detection overlap of 37.5\% with the former. We further demon- strate DarkSim’s capability to detect two real-world events in our case studies: (1) an increase in scanning activities surrounding CVE public disclosures, and (2) shifts in country- and network-level scanning patterns that indicate aggressive scanning. DarkSim provides a detailed and interpretable analysis framework for time-series anomalies, representing a new contribution to network security analytics.",
-    pdf={papers/2024-imc-darksim.pdf}
+    pdf={papers/2024-imc-darksim.pdf},
+    google_scholar_id={5nxA0vEk-isC}
 }
 
 @inproceedings{govt:imc,
@@ -83,23 +91,23 @@ Submarine Cables using Calypso},
     title = {Of Choices and Control - A Comparative Analysis of Government Hosting},
     booktitle = {ACM IMC},
     year = {2024},
-    month = "nov",
+    month = {11},
     abstract="We present the first large-scale analysis of the adoption of third-party serving infrastructures in government digital services. Draw ing from data collected across 61 countries spanning every continent and region, capturing over 82% of the world's Internet population, we examine the preferred hosting models for public-facing government sites and associated resources. Leveraging this dataset, we analyze government hosting strategies, cross-border dependencies, and the level of centralization in government web services. Among other findings, we show that governments predominantly rely on third-party infrastructure for data delivery, although this varies significantly, with even neighboring countries showing con- trasting patterns. Despite a preference for third-party hosting solutions, most government URLs in our study are served from domestic servers, although again with significant regional variation. Looking at overseas located servers, while the majority are found in North America and Western Europe, we note some interesting bilateral relationships (e.g., with 79% of Mexico’s government URLs being served from the US, and 26\% of China's government URLs from Japan). This research contributes to understanding the evolving landscape of serving infrastructures in the government sector, and the choices governments make between leveraging third-party solutions and maintaining control over users' access to their services and information.",
     pdf={papers/2024-imc-govt.pdf},
-    selected={true}
+    google_scholar_id={MXK_kJrjxJIC}
 }
-
 
 @inproceedings{ve:sigcomm,
     author = {Carisimo, Esteban and Kumar, Rashna and Wang, Caleb J. and Klein, Santiago and Bustamante, Fabi\'an E.},
     title = { Ten years of the Venezuelan crisis - An Internet perspective},
     booktitle = {ACM SIGCOMM},
     year = {2024},
-    month = {08},
+    month = {8},
     selected={true},
     abstract = "The Venezuelan crisis, unfolding over the past decade, has garnered international attention due to its impact on various sectors of civil society. While studies have extensively covered the crisis's effects on public health, energy, and water management, this paper delves into a previously unexplored area - the impact on Venezuela’s Internet infrastructure. Amidst Venezuela’s multifaceted challenges, understanding the repercussions of this critical aspect of modern society becomes imperative for the country's recovery.
     Leveraging measurements from various sources, we present a comprehensive view of the changes undergone by the Venezuelan network in the past decade. Our study reveals the significant impact of the crisis captured by different signals, including bandwidth stagnation, limited growth on network infrastructure growth, and high latency compared to the Latin American average. Beyond offering a new perspective on the Venezuelan crisis, our study can help inform attempts at devising strategies for its recovery.", 
     pdf={papers/2024-sigcomm-venezuela.pdf},
+    google_scholar_id={Se3iqnhoufwC},
 }
 
 
@@ -109,13 +117,14 @@ Submarine Cables using Calypso},
     journal = {PNAS Nexus},
     pages = {pgae069},
     year = {2024},
-    month = {02},
+    month = {2},
     abstract = "{Recent years have seen an increase in governmental interference in digital communication. Most research on this topic has focused on the application level, studying how content is manipulated or removed on websites, blogs or social media. However, in order for governments to obtain and maintain control of digital data flows, they need to secure access to the network infrastructure at the level of Internet service providers. In this paper, we study how the network topology of the Internet varies across different political environments, distinguishing between control at the level of individual Internet users (access) and at a higher level in the hierarchy of network carriers (transit). Using a novel method to estimate the structure of the Internet from network measurements, we show that in autocratic countries, state-owned (rather than privately-owned) providers have a markedly higher degree of control over transit networks. We also show that state-owned Internet providers often provide Internet access abroad, with a clear focus on other autocratic countries. Together, these results suggest that in autocracies, the network infrastructure is organized in a way that is more susceptible to the monitoring and manipulation of Internet data flows by state-owned providers both domestically and abroad.}",
     issn = {2752-6542},
     doi = {10.1093/pnasnexus/pgae069},
     url = {https://doi.org/10.1093/pnasnexus/pgae069},
     eprint = {https://academic.oup.com/pnasnexus/advance-article-pdf/doi/10.1093/pnasnexus/pgae069/56679333/pgae069.pdf},
     pdf={papers/2024-pnas-autocracies.pdf},
+    google_scholar_id={LkGwnXOMwfcC},
 }
 
 
@@ -123,8 +132,10 @@ Submarine Cables using Calypso},
       title={A hop away from everywhere: A view of the intercontinental long-haul infrastructure}, 
       author={Esteban Carisimo and Caleb J. Wang and Mia Weaver and Paul Barford and Fabi\'an E. Bustamante},
       year={2024},
+      month={6},
       booktitle={Proc. ACM Meas. Anal. Comput. Syst.},
       pdf={papers/2024-sigmetrics-lhl-edge.pdf},
+      google_scholar_id={ufrVoPGSRksC},
       abstract="We present a longitudinal study of intercontinental long-haul links (LHLs) – links with latencies significantly higher than that of all other links in a traceroute path. Our study is motivated by the recognition of these LHLs as a network-layer manifestation of critical transoceanic undersea cables. We present a methodology and associated processing system for identifying long-haul links in traceroute measurements. We apply this system to a large corpus of traceroute data and report on multiple aspects of long haul connectivity including country-level prevalence, routers as international gateways, preferred long-haul destinations, and the evolution of these characteristics over a 7 year period. We identify 85,620 layer-3 links (out of 2.7M links in a large traceroute dataset) that satisfy our definition for intercontinental long haul with many of them terminating in a relatively small number of nodes. An analysis of connected components shows a clearly dominant component with a relative size that remains stable despite a significant growth of the long-haul infrastructure.",
 }
 
@@ -135,11 +146,9 @@ Submarine Cables using Calypso},
   abstract={
   In this paper, we provide the first comprehensive longitudinal analysis of government-ordered Internet shutdowns and spontaneous outages (i.e., disruptions not ordered by the government). We describe the available tools, data sources and methods to identify and analyze Internet shutdowns. We then merge manually curated datasets on known government-ordered shutdowns and large-scale Internet outages, further augmenting them with data on real-world events, macroeconomic and sociopolitical indicators, and network operator statistics. Our analysis confirms previous findings on the economic and political profiles of countries with government-ordered shutdowns. Extending this analysis, we find that countries with national-scale spontaneous outages often have profiles similar to countries with shutdowns, differing from countries that experience neither. However, we find that government-ordered shutdowns are many more times likely to occur on days of mobilization, coinciding with elections, protests, and coups. Our study also characterizes the temporal characteristics of Internet shutdowns and finds that they differ significantly in terms of duration, recurrence interval, and start times when compared to spontaneous outages},
   year={2023},
-  selected={true},
   pdf={papers/2023-sigcomm-shutdowns.pdf},
+  google_scholar_id={_FxGoFyzp5QC}
 }
-
-@string{aps = {American Physical Society,}}
 
 @inproceedings{lhls:arxiv,
       title={A hop away from everywhere: A view of the intercontinental long-haul infrastructure}, 
@@ -167,9 +176,10 @@ pages="400--428",
 abstract="An organization-level topology of the Internet is a valuable resource with uses that range from the study of organizations' footprints and Internet centralization trends, to analysis of the dynamics of the Internet's corporate structures as result of (de)mergers and acquisitions. Current approaches to infer this topology rely exclusively on WHOIS databases and are thus impacted by its limitations, including errors and outdated data. We argue that a collaborative, operator-oriented database such as PeeringDB can bring a complementary perspective from the legally-bounded information available in WHOIS records. We present {\$}{\$}as2org+{\$}{\$}as2org+, a new framework that leverages self-reported information available on PeeringDB to boost the state-of-the-art WHOIS-based methodologies. We discuss the challenges and opportunities with using PeeringDB records for AS-to-organization mappings, present the design of {\$}{\$}as2org+{\$}{\$}as2org+and demonstrate its value identifying companies operating in multiple continents and mergers and acquisitions over a five-year period.",
 isbn="978-3-031-28486-1",
 pdf={papers/2023-pam-as2orgplus.pdf},
-github={https://github.com/NU-AquaLab/as2orgplus},
+code={https://github.com/NU-AquaLab/as2orgplus},
 slides={slides/2023-PAM-as2orgplus.pdf},
-video={https://www.youtube.com/watch?v=o2o67APXiHs}
+video={https://www.youtube.com/watch?v=o2o67APXiHs},
+google_scholar_id={WF5omc3nYNoC}
 }
 
 
@@ -192,7 +202,7 @@ pages="155--179",
 abstract="We investigate a novel approach to the use of jitter to infer network congestion using data collected by probes in access networks. We discovered a set of features in jitter and jitter dispersion —a jitter- derived time series we define in this paper— time series that are char- acteristic of periods of congestion. We leverage these concepts to create a jitter-based congestion inference framework that we call Jitterbug. We apply Jitterbug’s capabilities to a wide range of traffic scenarios and discover that Jitterbug can correctly identify both recurrent and one-off congestion events. We validate Jitterbug inferences against state-of-the- art autocorrelation-based inferences of recurrent congestion. We find that the two approaches have strong congruity in their inferences, but Jitter- bug holds promise for detecting one-off as well as recurrent congestion. We identify several future directions for this research including lever- aging ML/AI techniques to optimize performance and accuracy of this approach in operational settings.",
 isbn="978-3-030-98785-5",
 pdf={papers/2022-pam-jitterbug.pdf},
-github={https://github.com/estcarisimo/jitterbug/},
+code={https://github.com/estcarisimo/jitterbug/},
 slides={slides/2022-pam-jitterbug.pdf},
 video={https://www.youtube.com/watch?v=kCGtuPT1iZA&t=4s}
 }
@@ -213,6 +223,7 @@ isbn="978-3-030-98785-5",
 pdf={papers/2022-pam-cti.pdf},
 github={https://github.com/CAIDA/mapkit-cti-code},
 award = {Best dataset award},
+google_scholar_id={W7OEmFMy1HYC},
 }
 
 
@@ -229,7 +240,8 @@ isbn = {978-1-450-39129-0},
 html={https://dl.acm.org/doi/abs/10.1145/3487552.3487822},
 pdf={papers/2021-imc-state-owned.pdf},
 slides={slides/2021-imc-state-owned.pdf},
-github={https://github.com/estcarisimo/state-owned-ases/}
+github={https://github.com/estcarisimo/state-owned-ases/},
+google_scholar_id={Y0pCki6q_DkC}
 }
 
 
@@ -253,6 +265,7 @@ numpages = {7},
 keywords = {internet eXchange points, Latin America},
 html={https://dl.acm.org/doi/abs/10.1145/3390251.3390255},
 pdf={papers/2020-ccr-latam-ixps.pdf},
+google_scholar_id={2osOgNQ5qMEC},
 }
 
 @article{CARISIMO201954,
@@ -269,6 +282,7 @@ keywords = {Content providers, CDNs, Topology, -cores},
 abstract = {There is recent evidence that the core of the Internet, which was formerly dominated by large transit providers, has been reshaped after the transition to a multimedia-oriented network, first by general-purpose CDNs and now by private CDNs. In this work we use k-cores, an element of graph theory, to define which ASes compose the core of the Internet and to track the evolution of the core since 1999. Specifically, we investigate whether large players in the Internet content and CDN ecosystem belong to the core and, if so, since when. In addition, we examine differences between the IPv4 and IPv6 cores. We further investigate regional differences in the evolution of large content providers. Finally, we show that the core of the Internet has incorporated an increasing number of content ASes in recent years. To enable reproducibility of this work, we provide a website to allow interactive analysis of our datasets to detect, for example, “up and coming” ASes using customized queries.},
 html={https://www.sciencedirect.com/science/article/abs/pii/S0140366418310090?via%3Dihub},
 pdf={papers/2019-comnets-cores.pdf},
+google_scholar_id={Tyk-4Ss8FVUC}
 }
 
 @INPROCEEDINGS{8506513,  
@@ -283,6 +297,7 @@ doi={10.23919/TMA.2018.8506513},
 html={https://ieeexplore.ieee.org/document/8506513},
 pdf={papers/2018-tma-cores.pdf},
 slides={slides/2018-tma-cores.pdf},
+google_scholar_id={d1gkVwhDpl0C},
  }
 
 @inproceedings{10.1145/2940116.2940118,
@@ -303,6 +318,7 @@ location = {Florianopolis, Brazil},
 series = {LANCOMM '16},
 html={https://dl.acm.org/doi/10.1145/2940116.2940118},
 pdf={papers/2016-lancomm-latam.pdf},
+google_scholar_id={x6o8ySG0sC}
 }
 
 
