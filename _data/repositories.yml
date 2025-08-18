@@ -7,3 +7,13 @@ github_repos:
   - estcarisimo/jitterbug
   - NU-AquaLab/borges
   - estcarisimo/SirenLedger
+
+other_services:
+  - name: "The Aleph"
+    description: "Advanced AI research and development platform"
+    url: "https://thealeph.ai"
+    icon: "fas fa-brain"
+  - name: "NetCores"
+    description: "Network analysis and visualization tools"
+    url: "http://conexdat.fi.uba.ar:8889"
+    icon: "fas fa-network-wired"

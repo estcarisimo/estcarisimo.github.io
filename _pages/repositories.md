@@ -46,8 +46,13 @@ nav_order: 4
 </div>
 {% endif %}
 
-## Other Services
+{% if site.data.repositories.other_services %}
 
-<ul>
-    <li><a href="https://thealeph.ai">The Aleph</a></li>
-</ul>
+## Web Tools
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for service in site.data.repositories.other_services %}
+    {% include repository/service_card.liquid service=service %}
+  {% endfor %}
+</div>
+{% endif %}
