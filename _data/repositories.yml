@@ -15,5 +15,5 @@ other_services:
     icon: "fas fa-brain"
   - name: "NetCores"
     description: "Network analysis and visualization tools"
-    url: "http://conexdat.fi.uba.ar:8889"
+    url: "https://netcores.fi.uba.ar"
     icon: "fas fa-network-wired"
