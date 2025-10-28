@@ -6,6 +6,9 @@ github_repos:
   - estcarisimo/smoking-pi
   - estcarisimo/jitterbug
   - NU-AquaLab/borges
+  - CoNexDat/LaNet-vi
+  - NU-AquaLab/thealeph-mcp
+  - estcarisimo/netcores-mcp
   - estcarisimo/SirenLedger
 
 other_services:
@@ -16,4 +19,8 @@ other_services:
   - name: "NetCores"
     description: "Network analysis and visualization tools"
     url: "https://netcores.fi.uba.ar"
+    icon: "fas fa-network-wired"
+  - name: "LaNet-vi"
+    description: "Large Networks visualization tool"
+    url: "https://lanet-vi.fi.uba.ar"
     icon: "fas fa-network-wired"
