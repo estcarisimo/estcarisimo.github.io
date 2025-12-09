@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
+
+gem 'jekyll'
+
+# Core plugins that directly affect site building
 group :jekyll_plugins do
-    gem 'classifier-reborn'
-    gem 'jekyll'
-    gem 'jekyll-archives'
+    gem 'jekyll-archives-v2'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-get-json'
@@ -15,17 +17,21 @@ group :jekyll_plugins do
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     # gem 'jekyll-tabs' # Temporarily disabled for Docker compatibility
+    # gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git" # Disabled - requires mini_racer
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    # gem 'mini_racer' # Disabled for Docker ARM64 compatibility
-    gem 'unicode_utils'
-    gem 'webrick'
+
+    gem 'classifier-reborn'  # used for content categorization during the build
 end
+
+# Gems for development or external data fetching (outside :jekyll_plugins)
 group :other_plugins do
     # gem 'css_parser' # Temporarily disabled for Docker compatibility
     gem 'feedjira'
     gem 'httparty'
     gem 'nokogiri'
     gem 'activesupport'
+    gem 'observer'       # used by jekyll-scholar
+    gem 'ostruct'        # used by jekyll-twitter-plugin
 end
