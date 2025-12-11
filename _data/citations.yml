@@ -1,0 +1,127 @@
+metadata:
+  last_updated: '2025-12-11'
+papers:
+  OOG8shsAAAAJ:0EnyYjriUFMC:
+    citations: 0
+    title: 'POSTER: Revealing Hidden Secrets: Decoding DNS PTR records with Large Language Models'
+    year: '2024'
+  OOG8shsAAAAJ:2osOgNQ5qMEC:
+    citations: 18
+    title: A first look at the Latin American IXPs
+    year: '2020'
+  OOG8shsAAAAJ:3fE2CSJIrl8C:
+    citations: 0
+    title: 'Replication Data for: Network Topology Facilitates Internet Traffic Control in Autocracies'
+    year: '2024'
+  OOG8shsAAAAJ:5nxA0vEk-isC:
+    citations: 3
+    title: 'DarkSim: A similarity-based time-series analytic framework for darknet traffic'
+    year: '2024'
+  OOG8shsAAAAJ:8k81kl-MbHgC:
+    citations: 0
+    title: Passive and Active Measurement
+    year: '2024'
+  OOG8shsAAAAJ:9yKSN-GCB0IC:
+    citations: 1
+    title: "Tomograf\xEDa de la red en un IXP: Primer an\xE1lisis del PIT Bolivia"
+    year: '2017'
+  OOG8shsAAAAJ:IjCSPb-OGe4C:
+    citations: 1
+    title: Inferring country-level transit influence of autonomous systems
+    year: '2020'
+  OOG8shsAAAAJ:KlAtU1dfN6UC:
+    citations: 0
+    title: for Jitter-Based Congestion Inference
+    year: '2022'
+  OOG8shsAAAAJ:LkGwnXOMwfcC:
+    citations: 3
+    title: Network topology facilitates internet traffic control in autocracies
+    year: '2024'
+  OOG8shsAAAAJ:MXK_kJrjxJIC:
+    citations: 7
+    title: Of Choices and Control-A Comparative Analysis of Government Hosting
+    year: '2024'
+  OOG8shsAAAAJ:Se3iqnhoufwC:
+    citations: 4
+    title: Ten years of the Venezuelan crisis-An Internet perspective
+    year: '2024'
+  OOG8shsAAAAJ:Tyk-4Ss8FVUC:
+    citations: 34
+    title: Studying the evolution of content providers in IPv4 and IPv6 internet cores
+    year: '2019'
+  OOG8shsAAAAJ:ULOm3_A8WrAC:
+    citations: 2
+    title: 'Threading the Ocean: Mapping Digital Routes Across Submarine Cables using Calypso'
+    year: '2025'
+  OOG8shsAAAAJ:UeHWp8X0CEIC:
+    citations: 1
+    title: Revisiting RTT models
+    year: '2016'
+  OOG8shsAAAAJ:UebtZRa9Y70C:
+    citations: 1
+    title: 'A Hop Away from Everywhere: A View of the Intercontinental Long-haul Infrastructure'
+    year: '2024'
+  OOG8shsAAAAJ:W7OEmFMy1HYC:
+    citations: 11
+    title: "Quantifying nations\u2019 exposure to traffic observation and selective tampering"
+    year: '2022'
+  OOG8shsAAAAJ:WF5omc3nYNoC:
+    citations: 19
+    title: ' : Enriching AS-to-Organization Mappings with PeeringDB'
+    year: '2023'
+  OOG8shsAAAAJ:Y0pCki6q_DkC:
+    citations: 20
+    title: Identifying ASes of state-owned internet operators
+    year: '2021'
+  OOG8shsAAAAJ:YOwf2qJgpHMC:
+    citations: 0
+    title: "Take the Long Way Home\u2014Distant Peering to the Cloud"
+    year: '2025'
+  OOG8shsAAAAJ:YsMSGLbcyi4C:
+    citations: 0
+    title: 'Jitterbug: A New Framework for Jitter-Based Congestion Inference'
+    year: '2022'
+  OOG8shsAAAAJ:Zph67rFs4hoC:
+    citations: 1
+    title: Learning AS-to-Organization Mappings with Borges
+    year: '2025'
+  OOG8shsAAAAJ:_FxGoFyzp5QC:
+    citations: 28
+    title: 'Destination unreachable: Characterizing internet outages and shutdowns'
+    year: '2023'
+  OOG8shsAAAAJ:_kc_bZDykSQC:
+    citations: 0
+    title: Unsteady Underwater-On the Constancy of Submarine Path Properties
+    year: Unknown Year
+  OOG8shsAAAAJ:d1gkVwhDpl0C:
+    citations: 11
+    title: Studying the evolution of content providers in the Internet core
+    year: '2018'
+  OOG8shsAAAAJ:eQOLeE2rZwMC:
+    citations: 0
+    title: "Quantifying Nations\u2019 Exposure to Traffic Observation and Selective Tampering"
+    year: Unknown Year
+  OOG8shsAAAAJ:hqOjcs7Dif8C:
+    citations: 0
+    title: 'Poster: Beyond Proximity: Exploring Remote Cloud Peering'
+    year: '2024'
+  OOG8shsAAAAJ:kNdYIx-mwKoC:
+    citations: 2
+    title: 'The Aleph: Decoding Geographic Information from DNS PTR Records Using Large Language Models'
+    year: '2025'
+  OOG8shsAAAAJ:qjMakFHDy7sC:
+    citations: 0
+    title: "Tomograf\xEDa de la red: Medici\xF3n de par\xE1metros De un Internet eXchange Point"
+    year: '2014'
+  OOG8shsAAAAJ:u-x6o8ySG0sC:
+    citations: 9
+    title: 'Hidden internet topologies info: Truth or myth?'
+    year: '2016'
+  OOG8shsAAAAJ:ufrVoPGSRksC:
+    citations: 7
+    title: 'A hop away from everywhere: A view of the intercontinental long-haul infrastructure'
+    year: '2023'
+  OOG8shsAAAAJ:zYLM7Y9cAGgC:
+    citations: 3
+    title: 'A new intrinsic way to measure IXP performance: an experience in Bolivia'
+    year: '2015'
