@@ -1,20 +1,24 @@
 metadata:
-  last_updated: '2025-12-19'
+  last_updated: '2025-12-24'
 papers:
   OOG8shsAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: 'POSTER: Revealing Hidden Secrets: Decoding DNS PTR records with Large Language Models'
     year: '2024'
   OOG8shsAAAAJ:2osOgNQ5qMEC:
-    citations: 18
+    citations: 19
     title: A first look at the Latin American IXPs
     year: '2020'
   OOG8shsAAAAJ:3fE2CSJIrl8C:
     citations: 0
     title: 'Replication Data for: Network Topology Facilitates Internet Traffic Control in Autocracies'
     year: '2024'
+  OOG8shsAAAAJ:4TOpqqG69KYC:
+    citations: 0
+    title: "En Uni\xF3n y Libertad: Subnational Strategies for Hosting Government Services"
+    year: Unknown Year
   OOG8shsAAAAJ:5nxA0vEk-isC:
-    citations: 4
+    citations: 5
     title: 'DarkSim: A similarity-based time-series analytic framework for darknet traffic'
     year: '2024'
   OOG8shsAAAAJ:8k81kl-MbHgC:
@@ -38,11 +42,11 @@ papers:
     title: Network topology facilitates internet traffic control in autocracies
     year: '2024'
   OOG8shsAAAAJ:MXK_kJrjxJIC:
-    citations: 7
+    citations: 11
     title: Of Choices and Control-A Comparative Analysis of Government Hosting
     year: '2024'
   OOG8shsAAAAJ:Se3iqnhoufwC:
-    citations: 4
+    citations: 5
     title: Ten years of the Venezuelan crisis-An Internet perspective
     year: '2024'
   OOG8shsAAAAJ:Tyk-4Ss8FVUC:
@@ -70,7 +74,7 @@ papers:
     title: ' : Enriching AS-to-Organization Mappings with PeeringDB'
     year: '2023'
   OOG8shsAAAAJ:Y0pCki6q_DkC:
-    citations: 20
+    citations: 21
     title: Identifying ASes of state-owned internet operators
     year: '2021'
   OOG8shsAAAAJ:YOwf2qJgpHMC:
@@ -86,7 +90,7 @@ papers:
     title: Learning AS-to-Organization Mappings with Borges
     year: '2025'
   OOG8shsAAAAJ:_FxGoFyzp5QC:
-    citations: 30
+    citations: 32
     title: 'Destination unreachable: Characterizing internet outages and shutdowns'
     year: '2023'
   OOG8shsAAAAJ:_kc_bZDykSQC:
@@ -114,7 +118,7 @@ papers:
     title: "Tomograf\xEDa de la red: Medici\xF3n de par\xE1metros De un Internet eXchange Point"
     year: '2014'
   OOG8shsAAAAJ:u-x6o8ySG0sC:
-    citations: 9
+    citations: 10
     title: 'Hidden internet topologies info: Truth or myth?'
     year: '2016'
   OOG8shsAAAAJ:ufrVoPGSRksC:
