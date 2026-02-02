@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-23'
+  last_updated: '2026-02-02'
 papers:
   OOG8shsAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -90,7 +90,7 @@ papers:
     title: Learning AS-to-Organization Mappings with Borges
     year: '2025'
   OOG8shsAAAAJ:_FxGoFyzp5QC:
-    citations: 34
+    citations: 35
     title: 'Destination unreachable: Characterizing internet outages and shutdowns'
     year: '2023'
   OOG8shsAAAAJ:_kc_bZDykSQC:
