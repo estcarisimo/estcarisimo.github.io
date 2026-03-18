@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-13'
+  last_updated: '2026-03-18'
 papers:
   OOG8shsAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -13,12 +13,16 @@ papers:
     citations: 0
     title: 'Replication Data for: Network Topology Facilitates Internet Traffic Control in Autocracies'
     year: '2024'
+  OOG8shsAAAAJ:4DMP91E08xMC:
+    citations: 0
+    title: "Calypso\u2019s Voyage: Charting Traceroute Paths Through Submarine Cables"
+    year: Unknown Year
   OOG8shsAAAAJ:4TOpqqG69KYC:
     citations: 0
     title: "En Uni\xF3n y Libertad: Subnational Strategies for Hosting Government Services"
     year: Unknown Year
   OOG8shsAAAAJ:5nxA0vEk-isC:
-    citations: 8
+    citations: 10
     title: 'DarkSim: A similarity-based time-series analytic framework for darknet traffic'
     year: '2024'
   OOG8shsAAAAJ:8k81kl-MbHgC:
