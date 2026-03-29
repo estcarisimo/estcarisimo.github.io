@@ -5,6 +5,7 @@ title: teaching
 description: Courses I taught.
 nav: true
 nav_order: 6
+calendar: true
 ---
 
 **Northwestern University**
