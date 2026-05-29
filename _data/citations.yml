@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-13'
+  last_updated: '2026-05-29'
 papers:
   OOG8shsAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -50,7 +50,7 @@ papers:
     title: Passive and Active Measurement
     year: Unknown Year
   OOG8shsAAAAJ:MXK_kJrjxJIC:
-    citations: 15
+    citations: 16
     title: Of choices and control-a comparative analysis of government hosting
     year: '2024'
   OOG8shsAAAAJ:Se3iqnhoufwC:
@@ -70,7 +70,7 @@ papers:
     title: Revisiting RTT models
     year: '2016'
   OOG8shsAAAAJ:W7OEmFMy1HYC:
-    citations: 12
+    citations: 13
     title: "Quantifying nations\u2019 exposure to traffic observation and selective tampering"
     year: '2022'
   OOG8shsAAAAJ:WF5omc3nYNoC:
@@ -122,7 +122,7 @@ papers:
     title: 'Poster: Beyond Proximity: Exploring Remote Cloud Peering'
     year: '2024'
   OOG8shsAAAAJ:kNdYIx-mwKoC:
-    citations: 2
+    citations: 5
     title: 'The Aleph: Decoding Geographic Information from DNS PTR Records Using Large Language Models'
     year: '2025'
   OOG8shsAAAAJ:qjMakFHDy7sC:
