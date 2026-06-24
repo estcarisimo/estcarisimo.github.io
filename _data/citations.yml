@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-05-29'
+  last_updated: '2026-06-24'
 papers:
   OOG8shsAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: 'Poster: Revealing Hidden Secrets: Decoding DNS PTR records with Large Language Models'
     year: '2024'
   OOG8shsAAAAJ:2osOgNQ5qMEC:
-    citations: 21
+    citations: 22
     title: A first look at the Latin American IXPs
     year: '2020'
   OOG8shsAAAAJ:3fE2CSJIrl8C:
@@ -16,7 +16,7 @@ papers:
   OOG8shsAAAAJ:4DMP91E08xMC:
     citations: 0
     title: "Calypso\u2019s Voyage: Charting Traceroute Paths Through Submarine Cables"
-    year: Unknown Year
+    year: '2026'
   OOG8shsAAAAJ:4TOpqqG69KYC:
     citations: 0
     title: "En Uni\xF3n y Libertad: Subnational Strategies for Hosting Government Services"
@@ -42,7 +42,7 @@ papers:
     title: for Jitter-Based Congestion Inference
     year: '2022'
   OOG8shsAAAAJ:LkGwnXOMwfcC:
-    citations: 3
+    citations: 4
     title: Network topology facilitates internet traffic control in autocracies
     year: '2024'
   OOG8shsAAAAJ:M3ejUd6NZC8C:
@@ -50,11 +50,11 @@ papers:
     title: Passive and Active Measurement
     year: Unknown Year
   OOG8shsAAAAJ:MXK_kJrjxJIC:
-    citations: 16
+    citations: 18
     title: Of choices and control-a comparative analysis of government hosting
     year: '2024'
   OOG8shsAAAAJ:Se3iqnhoufwC:
-    citations: 5
+    citations: 7
     title: Ten years of the Venezuelan crisis-An Internet perspective
     year: '2024'
   OOG8shsAAAAJ:Tyk-4Ss8FVUC:
@@ -70,11 +70,11 @@ papers:
     title: Revisiting RTT models
     year: '2016'
   OOG8shsAAAAJ:W7OEmFMy1HYC:
-    citations: 13
+    citations: 15
     title: "Quantifying nations\u2019 exposure to traffic observation and selective tampering"
     year: '2022'
   OOG8shsAAAAJ:WF5omc3nYNoC:
-    citations: 23
+    citations: 25
     title: ' : Enriching AS-to-Organization Mappings with PeeringDB'
     year: '2023'
   OOG8shsAAAAJ:Wp0gIr-vW9MC:
@@ -82,7 +82,7 @@ papers:
     title: 'Linnaeus: A Hierarchical, Multi-Label Framework for Autonomous System Classification'
     year: '2026'
   OOG8shsAAAAJ:Y0pCki6q_DkC:
-    citations: 23
+    citations: 26
     title: Identifying ASes of state-owned internet operators
     year: '2021'
   OOG8shsAAAAJ:YOwf2qJgpHMC:
@@ -94,17 +94,17 @@ papers:
     title: 'Jitterbug: A New Framework for Jitter-Based Congestion Inference'
     year: '2022'
   OOG8shsAAAAJ:Zph67rFs4hoC:
-    citations: 2
+    citations: 3
     title: Learning AS-to-Organization Mappings with Borges
     year: '2025'
   OOG8shsAAAAJ:_FxGoFyzp5QC:
-    citations: 48
+    citations: 51
     title: 'Destination unreachable: Characterizing internet outages and shutdowns'
     year: '2023'
   OOG8shsAAAAJ:_kc_bZDykSQC:
     citations: 0
-    title: Unsteady Underwater-On the Constancy of Submarine Path Properties
-    year: Unknown Year
+    title: Unsteady Underwater-On the Constancy of Submarine Path Properties.
+    year: '2025'
   OOG8shsAAAAJ:aqlVkmm33-oC:
     citations: 0
     title: 'Monitoring Latency on Submarine Cables: Limitations and Opportunities'
@@ -122,7 +122,7 @@ papers:
     title: 'Poster: Beyond Proximity: Exploring Remote Cloud Peering'
     year: '2024'
   OOG8shsAAAAJ:kNdYIx-mwKoC:
-    citations: 5
+    citations: 7
     title: 'The Aleph: Decoding Geographic Information from DNS PTR Records Using Large Language Models'
     year: '2025'
   OOG8shsAAAAJ:qjMakFHDy7sC:
@@ -138,7 +138,7 @@ papers:
     title: 'Hidden internet topologies info: Truth or myth?'
     year: '2016'
   OOG8shsAAAAJ:ufrVoPGSRksC:
-    citations: 10
+    citations: 12
     title: 'A hop away from everywhere: A view of the intercontinental long-haul infrastructure'
     year: '2023'
   OOG8shsAAAAJ:zYLM7Y9cAGgC:
