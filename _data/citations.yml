@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-24'
+  last_updated: '2026-07-17'
 papers:
   OOG8shsAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -18,7 +18,7 @@ papers:
     title: "Calypso\u2019s Voyage: Charting Traceroute Paths Through Submarine Cables"
     year: '2026'
   OOG8shsAAAAJ:4TOpqqG69KYC:
-    citations: 0
+    citations: 1
     title: "En Uni\xF3n y Libertad: Subnational Strategies for Hosting Government Services"
     year: '2026'
   OOG8shsAAAAJ:5nxA0vEk-isC:
@@ -50,7 +50,7 @@ papers:
     title: Passive and Active Measurement
     year: Unknown Year
   OOG8shsAAAAJ:MXK_kJrjxJIC:
-    citations: 18
+    citations: 19
     title: Of choices and control-a comparative analysis of government hosting
     year: '2024'
   OOG8shsAAAAJ:Se3iqnhoufwC:
@@ -62,7 +62,7 @@ papers:
     title: Studying the evolution of content providers in IPv4 and IPv6 internet cores
     year: '2019'
   OOG8shsAAAAJ:ULOm3_A8WrAC:
-    citations: 2
+    citations: 3
     title: 'Threading the Ocean: Mapping Digital Routes Across Submarine Cables using Calypso'
     year: '2025'
   OOG8shsAAAAJ:UeHWp8X0CEIC:
@@ -98,13 +98,13 @@ papers:
     title: Learning AS-to-Organization Mappings with Borges
     year: '2025'
   OOG8shsAAAAJ:_FxGoFyzp5QC:
-    citations: 51
+    citations: 54
     title: 'Destination unreachable: Characterizing internet outages and shutdowns'
     year: '2023'
   OOG8shsAAAAJ:_kc_bZDykSQC:
     citations: 0
-    title: Unsteady Underwater-On the Constancy of Submarine Path Properties.
-    year: '2025'
+    title: Unsteady Underwater-On the Constancy of Submarine Path Properties
+    year: Unknown Year
   OOG8shsAAAAJ:aqlVkmm33-oC:
     citations: 0
     title: 'Monitoring Latency on Submarine Cables: Limitations and Opportunities'
@@ -122,7 +122,7 @@ papers:
     title: 'Poster: Beyond Proximity: Exploring Remote Cloud Peering'
     year: '2024'
   OOG8shsAAAAJ:kNdYIx-mwKoC:
-    citations: 7
+    citations: 8
     title: 'The Aleph: Decoding Geographic Information from DNS PTR Records Using Large Language Models'
     year: '2025'
   OOG8shsAAAAJ:qjMakFHDy7sC:
@@ -138,7 +138,7 @@ papers:
     title: 'Hidden internet topologies info: Truth or myth?'
     year: '2016'
   OOG8shsAAAAJ:ufrVoPGSRksC:
-    citations: 12
+    citations: 14
     title: 'A hop away from everywhere: A view of the intercontinental long-haul infrastructure'
     year: '2023'
   OOG8shsAAAAJ:zYLM7Y9cAGgC:
