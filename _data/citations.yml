@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-17'
+  last_updated: '2026-07-27'
 papers:
   OOG8shsAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -107,7 +107,7 @@ papers:
     year: Unknown Year
   OOG8shsAAAAJ:aqlVkmm33-oC:
     citations: 0
-    title: 'Monitoring Latency on Submarine Cables: Limitations and Opportunities'
+    title: 'Monitoring Latency on Submarine Cables: Limitations and Opportunities.'
     year: '2026'
   OOG8shsAAAAJ:d1gkVwhDpl0C:
     citations: 11
