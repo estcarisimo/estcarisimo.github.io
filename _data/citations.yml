@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-27'
+  last_updated: '2026-08-05'
 papers:
   OOG8shsAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: 'Poster: Revealing Hidden Secrets: Decoding DNS PTR records with Large Language Models'
     year: '2024'
   OOG8shsAAAAJ:2osOgNQ5qMEC:
-    citations: 22
+    citations: 21
     title: A first look at the Latin American IXPs
     year: '2020'
   OOG8shsAAAAJ:3fE2CSJIrl8C:
@@ -22,12 +22,12 @@ papers:
     title: "En Uni\xF3n y Libertad: Subnational Strategies for Hosting Government Services"
     year: '2026'
   OOG8shsAAAAJ:5nxA0vEk-isC:
-    citations: 10
+    citations: 14
     title: 'DarkSim: A similarity-based time-series analytic framework for darknet traffic'
     year: '2024'
   OOG8shsAAAAJ:8k81kl-MbHgC:
     citations: 0
-    title: "Passive and Active Measurement: 25th International Conference, PAM 2024, Virtual Event, March 11\u201313, 2024, Proceedings, Part II"
+    title: Passive and Active Measurement
     year: '2024'
   OOG8shsAAAAJ:9yKSN-GCB0IC:
     citations: 1
@@ -45,10 +45,6 @@ papers:
     citations: 4
     title: Network topology facilitates internet traffic control in autocracies
     year: '2024'
-  OOG8shsAAAAJ:M3ejUd6NZC8C:
-    citations: 0
-    title: Passive and Active Measurement
-    year: Unknown Year
   OOG8shsAAAAJ:MXK_kJrjxJIC:
     citations: 19
     title: Of choices and control-a comparative analysis of government hosting
@@ -58,7 +54,7 @@ papers:
     title: Ten years of the Venezuelan crisis-An Internet perspective
     year: '2024'
   OOG8shsAAAAJ:Tyk-4Ss8FVUC:
-    citations: 35
+    citations: 34
     title: Studying the evolution of content providers in IPv4 and IPv6 internet cores
     year: '2019'
   OOG8shsAAAAJ:ULOm3_A8WrAC:
@@ -82,7 +78,7 @@ papers:
     title: 'Linnaeus: A Hierarchical, Multi-Label Framework for Autonomous System Classification'
     year: '2026'
   OOG8shsAAAAJ:Y0pCki6q_DkC:
-    citations: 26
+    citations: 27
     title: Identifying ASes of state-owned internet operators
     year: '2021'
   OOG8shsAAAAJ:YOwf2qJgpHMC:
@@ -98,16 +94,16 @@ papers:
     title: Learning AS-to-Organization Mappings with Borges
     year: '2025'
   OOG8shsAAAAJ:_FxGoFyzp5QC:
-    citations: 54
+    citations: 56
     title: 'Destination unreachable: Characterizing internet outages and shutdowns'
     year: '2023'
   OOG8shsAAAAJ:_kc_bZDykSQC:
     citations: 0
-    title: Unsteady Underwater-On the Constancy of Submarine Path Properties
-    year: Unknown Year
+    title: Unsteady Underwater-On the Constancy of Submarine Path Properties.
+    year: '2025'
   OOG8shsAAAAJ:aqlVkmm33-oC:
     citations: 0
-    title: 'Monitoring Latency on Submarine Cables: Limitations and Opportunities.'
+    title: 'Monitoring Latency on Submarine Cables: Limitations and Opportunities'
     year: '2026'
   OOG8shsAAAAJ:d1gkVwhDpl0C:
     citations: 11
@@ -122,17 +118,13 @@ papers:
     title: 'Poster: Beyond Proximity: Exploring Remote Cloud Peering'
     year: '2024'
   OOG8shsAAAAJ:kNdYIx-mwKoC:
-    citations: 8
-    title: 'The Aleph: Decoding Geographic Information from DNS PTR Records Using Large Language Models'
+    citations: 9
+    title: 'The aleph: Decoding geographic information from DNS PTR records using large language models'
     year: '2025'
   OOG8shsAAAAJ:qjMakFHDy7sC:
     citations: 0
     title: "Tomograf\xEDa de la red: Medici\xF3n de par\xE1metros De un Internet eXchange Point"
     year: '2014'
-  OOG8shsAAAAJ:qxL8FJ1GzNcC:
-    citations: 0
-    title: Identifying ASes of state-owned internet operators
-    year: '2021'
   OOG8shsAAAAJ:u-x6o8ySG0sC:
     citations: 10
     title: 'Hidden internet topologies info: Truth or myth?'
