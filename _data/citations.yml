@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-24'
 papers:
   OOG8shsAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -46,11 +46,11 @@ papers:
     title: Network topology facilitates internet traffic control in autocracies
     year: '2024'
   OOG8shsAAAAJ:MXK_kJrjxJIC:
-    citations: 19
+    citations: 20
     title: Of choices and control-a comparative analysis of government hosting
     year: '2024'
   OOG8shsAAAAJ:Se3iqnhoufwC:
-    citations: 7
+    citations: 8
     title: Ten years of the Venezuelan crisis-An Internet perspective
     year: '2024'
   OOG8shsAAAAJ:Tyk-4Ss8FVUC:
@@ -58,7 +58,7 @@ papers:
     title: Studying the evolution of content providers in IPv4 and IPv6 internet cores
     year: '2019'
   OOG8shsAAAAJ:ULOm3_A8WrAC:
-    citations: 3
+    citations: 6
     title: 'Threading the Ocean: Mapping Digital Routes Across Submarine Cables using Calypso'
     year: '2025'
   OOG8shsAAAAJ:UeHWp8X0CEIC:
@@ -86,7 +86,7 @@ papers:
     title: "Take the Long Way Home\u2014Distant Peering to the Cloud"
     year: '2025'
   OOG8shsAAAAJ:YsMSGLbcyi4C:
-    citations: 1
+    citations: 2
     title: 'Jitterbug: A New Framework for Jitter-Based Congestion Inference'
     year: '2022'
   OOG8shsAAAAJ:Zph67rFs4hoC:
