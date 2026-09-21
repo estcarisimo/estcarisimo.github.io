@@ -6,7 +6,8 @@
     pdf={papers/2026-imc-calypso.pdf},
     website={https://calypso-aqua.github.io/},
     google_scholar_id={4DMP91E08xMC},
-    abstract="As the backbone of global Internet connectivity, the submarine cable network (SCN) faces growing threats with serious economic and security implications. We introduce a framework for mapping traceroute paths to the submarine cables they traverse, integrating ownership records, routing metadata, and geographic constraints to infer cable usage. We define Route Stress, a traceroute-derived metric for estimating the relative importance of submarine cables, and validate our findings through expert assessment and regional case studies."
+    abstract="As the backbone of global Internet connectivity, the submarine cable network (SCN) faces growing threats with serious economic and security implications. We introduce a framework for mapping traceroute paths to the submarine cables they traverse, integrating ownership records, routing metadata, and geographic constraints to infer cable usage. We define Route Stress, a traceroute-derived metric for estimating the relative importance of submarine cables, and validate our findings through expert assessment and regional case studies.",
+    topics={submarine, topology}
 }
 
 @article{linnaeus:arxiv,
@@ -17,7 +18,8 @@
     eprint = {2603.13649},
     pdf={papers/2026-axriv-linneaus.pdf},
     google_scholar_id={Wp0gIr-vW9MC},
-    abstract="Autonomous systems (ASes) play diverse roles in today's Internet, from community and research backbones to hyperscale content providers and submarine-cable operators. However, existing taxonomies based solely on network-level features fail to capture their semantic and operational heterogeneity. In this paper, we present Linnaeus, a hierarchical AS-classification framework that combines network-centric data (e.g., topology, BGP announcements) with rich non-network features and leverages domain-adapted large language models alongside traditional machine-learning techniques. Linnaeus provides a two-level taxonomy with 18 top-level and 38 second-level classes, supports multi-label assignments to reflect hybrid roles (e.g., research backbone and transit provider), and provides an end-to-end pipeline from data ingestion to label inference. On a manually annotated dataset of nearly 2,000 ASes, Linnaeus achieves an overall precision and recall of 0.83 and 0.76, respectively. We further demonstrate its practical value through case studies, highlighting Linnaeus's potential to reveal both structural and semantic dimensions of Internet infrastructure."
+    abstract="Autonomous systems (ASes) play diverse roles in today's Internet, from community and research backbones to hyperscale content providers and submarine-cable operators. However, existing taxonomies based solely on network-level features fail to capture their semantic and operational heterogeneity. In this paper, we present Linnaeus, a hierarchical AS-classification framework that combines network-centric data (e.g., topology, BGP announcements) with rich non-network features and leverages domain-adapted large language models alongside traditional machine-learning techniques. Linnaeus provides a two-level taxonomy with 18 top-level and 38 second-level classes, supports multi-label assignments to reflect hybrid roles (e.g., research backbone and transit provider), and provides an end-to-end pipeline from data ingestion to label inference. On a manually annotated dataset of nearly 2,000 ASes, Linnaeus achieves an overall precision and recall of 0.83 and 0.76, respectively. We further demonstrate its practical value through case studies, highlighting Linnaeus's potential to reveal both structural and semantic dimensions of Internet infrastructure.",
+    topics={as-org, llm}
 }
 
 @inproceedings{nines:submarine,
@@ -27,7 +29,8 @@
   year    = {2026},
   month   = feb,
   abstract = "The world's Submarine Cable Network (SCN) is a critical component of the Internet, supporting both inter- and intra- continental communication. We describe a methodology to extract packet latency (via RTT) information on submarine segments, using existing deployed infrastructure collecting standard traceroute measurements. The first component of the methodology identifies vantage points whose measure- ments traverse submarine segments. The second component provides novel, path-change-aware, approaches to extract the minRTT over the segments, using those vantage points. We demonstrate the efficacy of our method by using tracer- oute measurements from perfSONAR deployments as ground truth. Our results provide a clear view of the inherent limita- tions of existing deployed infrastructure. Although both our methodology and minimum RTT estimators raise the state of the art, they also reveal that such infrastructure cannot hope, in general, to access dynamic latency metrics such as latency variability (variance) arising from congestion.",
-    google_scholar_id={aqlVkmm33-oC}
+    google_scholar_id={aqlVkmm33-oC},
+    topics={submarine, performance}
 }
 
 @inproceedings{arg:pam,
@@ -38,7 +41,8 @@
     month = {03},
     pdf={papers/2026-PAM-Arg.pdf},
     abstract="We present the first empirical study of subnational hosting strategies, using Argentina's 24 provinces as a case. Starting from oﬃcial landing pages, we analyze $\approx$1.2k domains (collected Oct 2023 – Apr 2024), classifying serving networks by operational control (sovereign, domestic third-party, global) and examining authoritative DNS and HTTPS deployment. We relate these choices to 31 demographic, economic, technological, and political covariates – associations only, not causal claims. We find substantial heterogeneity: some provinces operate sovereign infrastructure; others rely on domestic incumbents or outsource to global providers. Federal capacity is rarely used, with provinces favoring bespoke or repurposed networks (including utility backbones). Legacy telecom footprints remain strong predictors of hosting choice even within a shared national umbrella. We also observe frequent splits between hosting and nameservers and uneven HTTPS hygiene. Taken together, the study oﬀers a reusable measurement template and benchmarks that make sovereigntyperformance trade-oﬀs measurable below the nation level.",
-    google_scholar_id={4TOpqqG69KYC}
+    google_scholar_id={4TOpqqG69KYC},
+    topics={government, latam}
 }
 
 @article{ton:lhl,
@@ -49,7 +53,8 @@
     month = {08},
     abstract = "We characterize distant peering to cloud providers using a novel traceroute campaign, revealing that while most networks peer nearby, over 20\% travel thousands of kilometers, often to North America, driven by cost, peering, and content factors.",
     pdf={papers/2025-ToN-cloud.pdf},
-    google_scholar_id={YOwf2qJgpHMC}
+    google_scholar_id={YOwf2qJgpHMC},
+    topics={cloud, performance, topology}
 }
 
 @inproceedings{calypso:sigcomm:poster,
@@ -59,7 +64,8 @@
     year = {2025},
     month = {9},
     pdf={posters/2025-SIGCOMM-Calypso.pdf},
-    google_scholar_id={ULOm3_A8WrAC}
+    google_scholar_id={ULOm3_A8WrAC},
+    topics={submarine, topology}
 }
 
 @inproceedings{aleph:sigcomm:poster,
@@ -69,7 +75,8 @@
     year = {2024},
     month = {6},
     pdf={posters/2024-SIGCOMM-aleph.pdf},
-    google_scholar_id={0EnyYjriUFMC}
+    google_scholar_id={0EnyYjriUFMC},
+    topics={llm, topology}
 }
 
 @inproceedings{cloud:sigcomm:poster,
@@ -79,7 +86,8 @@
     year = {2024},
     month = {6},
     pdf={posters/2024-SIGCOMM-cloud.pdf},
-    google_scholar_id={hqOjcs7Dif8C}
+    google_scholar_id={hqOjcs7Dif8C},
+    topics={cloud, topology}
 }
 
 @inproceedings{lhls:sigmetrics:poster,
@@ -89,6 +97,7 @@
     year = {2024},
     month = {6},
     pdf={posters/2024-SIGMETRICS-lhls.pdf},
+    topics={submarine, topology}
 }
 
 
@@ -102,7 +111,8 @@
     abstract="We introduce Borges (Better ORGanizations Entities mappingS), a novel framework for improving AS-to-Organization mappings using Large Language Models (LLMs). Existing approaches, such as AS2Org and its extensions, rely on static WHOIS data and rule-based extraction from PeeringDB records, limiting their ability to capture complex, dynamic organizational structures. Borges overcomes these limitations by combining traditional sources with few-shot LLM prompting to extract sibling relationships from free-text fields in PeeringDB, and by introducing website-based inference using redirect chains, domain similarity, and favicon analysis. Our evaluation shows that Borges outperforms prior methods, achieving a 7\% improvement in sibling ASN identification and an Organization Factor score of 0.3576. It also expands the recognized user base of large Internet conglomerates by 192 million users (approx. 5\% of the global Internet population) and improves geographic footprint estimates across multiple regions.",
     pdf={papers/2025-IMC-borges.pdf},
     google_scholar_id={Zph67rFs4hoC},
-    code={https://github.com/NU-AquaLab/borges}
+    code={https://github.com/NU-AquaLab/borges},
+    topics={as-org, llm}
 }
 
 @inproceedings{aleph:conext,
@@ -117,6 +127,7 @@
     selected={true},
     google_scholar_id={kNdYIx-mwKoC},
     website={https://thealeph.ai/},
+    topics={llm, topology}
 }
 
 
@@ -128,7 +139,8 @@
     month = {11},
     abstract="Network Telescopes, often referred to as darknets, capture unsolicited traffic directed toward advertised but unused IP spaces, enabling researchers and operators to monitor malicious, Internet-wide network phenomena such as vulnerability scanning, botnet propagation, and DoS backscatter. Detecting these events, however, has become increasingly challenging due to the growing traffic volumes that telescopes receive. To address this, we introduce DarkSim, a novel analytic framework that utilizes Dynamic Time Warping to measure similarities within the high-dimensional time series of network traffic. DarkSim combines traditional raw packet processing with statistical approaches, identifying traffic anomalies and enabling rapid time-to-insight. We evaluate our framework against DarkGLASSO, an existing method based on the Graphical LASSO algorithm, using data from the UCSD Network Telescope. Based on our manually classified detections, DarkSim showcased perfect precision and an overlap of up to 91% of DarkGLASSO's detections in contrast to DarkGLASSO's maximum of 73.3\% precision and detection overlap of 37.5\% with the former. We further demon- strate DarkSim’s capability to detect two real-world events in our case studies: (1) an increase in scanning activities surrounding CVE public disclosures, and (2) shifts in country- and network-level scanning patterns that indicate aggressive scanning. DarkSim provides a detailed and interpretable analysis framework for time-series anomalies, representing a new contribution to network security analytics.",
     pdf={papers/2024-imc-darksim.pdf},
-    google_scholar_id={5nxA0vEk-isC}
+    google_scholar_id={5nxA0vEk-isC},
+    topics={darknet}
 }
 
 @inproceedings{govt:imc,
@@ -139,7 +151,8 @@
     month = {11},
     abstract="We present the first large-scale analysis of the adoption of third-party serving infrastructures in government digital services. Draw ing from data collected across 61 countries spanning every continent and region, capturing over 82% of the world's Internet population, we examine the preferred hosting models for public-facing government sites and associated resources. Leveraging this dataset, we analyze government hosting strategies, cross-border dependencies, and the level of centralization in government web services. Among other findings, we show that governments predominantly rely on third-party infrastructure for data delivery, although this varies significantly, with even neighboring countries showing con- trasting patterns. Despite a preference for third-party hosting solutions, most government URLs in our study are served from domestic servers, although again with significant regional variation. Looking at overseas located servers, while the majority are found in North America and Western Europe, we note some interesting bilateral relationships (e.g., with 79% of Mexico’s government URLs being served from the US, and 26\% of China's government URLs from Japan). This research contributes to understanding the evolving landscape of serving infrastructures in the government sector, and the choices governments make between leveraging third-party solutions and maintaining control over users' access to their services and information.",
     pdf={papers/2024-imc-govt.pdf},
-    google_scholar_id={MXK_kJrjxJIC}
+    google_scholar_id={MXK_kJrjxJIC},
+    topics={government}
 }
 
 @inproceedings{ve:sigcomm,
@@ -153,6 +166,7 @@
     Leveraging measurements from various sources, we present a comprehensive view of the changes undergone by the Venezuelan network in the past decade. Our study reveals the significant impact of the crisis captured by different signals, including bandwidth stagnation, limited growth on network infrastructure growth, and high latency compared to the Latin American average. Beyond offering a new perspective on the Venezuelan crisis, our study can help inform attempts at devising strategies for its recovery.", 
     pdf={papers/2024-sigcomm-venezuela.pdf},
     google_scholar_id={Se3iqnhoufwC},
+    topics={government, latam}
 }
 
 
@@ -170,6 +184,7 @@
     eprint = {https://academic.oup.com/pnasnexus/advance-article-pdf/doi/10.1093/pnasnexus/pgae069/56679333/pgae069.pdf},
     pdf={papers/2024-pnas-autocracies.pdf},
     google_scholar_id={LkGwnXOMwfcC},
+    topics={government, topology}
 }
 
 
@@ -182,6 +197,7 @@
       pdf={papers/2024-sigmetrics-lhl-edge.pdf},
       google_scholar_id={ufrVoPGSRksC},
       abstract="We present a longitudinal study of intercontinental long-haul links (LHLs) – links with latencies significantly higher than that of all other links in a traceroute path. Our study is motivated by the recognition of these LHLs as a network-layer manifestation of critical transoceanic undersea cables. We present a methodology and associated processing system for identifying long-haul links in traceroute measurements. We apply this system to a large corpus of traceroute data and report on multiple aspects of long haul connectivity including country-level prevalence, routers as international gateways, preferred long-haul destinations, and the evolution of these characteristics over a 7 year period. We identify 85,620 layer-3 links (out of 2.7M links in a large traceroute dataset) that satisfy our definition for intercontinental long haul with many of them terminating in a relatively small number of nodes. An analysis of connected components shows a clearly dominant component with a relative size that remains stable despite a significant growth of the long-haul infrastructure.",
+    topics={submarine, topology}
 }
 
 @inproceedings{shutdowns:sigcomm,
@@ -192,7 +208,8 @@
   In this paper, we provide the first comprehensive longitudinal analysis of government-ordered Internet shutdowns and spontaneous outages (i.e., disruptions not ordered by the government). We describe the available tools, data sources and methods to identify and analyze Internet shutdowns. We then merge manually curated datasets on known government-ordered shutdowns and large-scale Internet outages, further augmenting them with data on real-world events, macroeconomic and sociopolitical indicators, and network operator statistics. Our analysis confirms previous findings on the economic and political profiles of countries with government-ordered shutdowns. Extending this analysis, we find that countries with national-scale spontaneous outages often have profiles similar to countries with shutdowns, differing from countries that experience neither. However, we find that government-ordered shutdowns are many more times likely to occur on days of mobilization, coinciding with elections, protests, and coups. Our study also characterizes the temporal characteristics of Internet shutdowns and finds that they differ significantly in terms of duration, recurrence interval, and start times when compared to spontaneous outages},
   year={2023},
   pdf={papers/2023-sigcomm-shutdowns.pdf},
-  google_scholar_id={_FxGoFyzp5QC}
+  google_scholar_id={_FxGoFyzp5QC},
+    topics={government}
 }
 
 @inproceedings{lhls:arxiv,
@@ -201,7 +218,8 @@
       year={2023},
       booktitle={arXiv},
       pdf={papers/2023-arxiv-lhl-edge.pdf},
-      abstract="Over the past two decades, a desire to reduce transit cost, improve control over routing and performance, and enhance the quality of experience for users, has yielded a more densely connected, flat network with fewer hops between sources and destinations. The shortening of paths in terms of the number of hops or links has also meant, for what is at the end an infrastructure-bound network, the lengthening of many of these links. In this paper, we focus on an important aspect of the evolving logical connectivity of the Internet that has received little attention to date: intercontinental long-haul links. We develop a methodology and associated processing system for identifying long haul links in traceroute measurements. We apply this system to a large corpus of traceroute data and report on multiple aspects of long haul connectivity including country-level prevalence, routers as international gateways, preferred long-haul destinations, and the evolution of these characteristics over a 7 year period. We identify over 9K layer 3 links that satisfy our definition for intercontinental long haul with many of them terminating in a relatively small number of nodes. An analysis of connected components shows a clearly dominant one with a relative size that remains stable despite a significant growth of the long-haul infrastructure."
+      abstract="Over the past two decades, a desire to reduce transit cost, improve control over routing and performance, and enhance the quality of experience for users, has yielded a more densely connected, flat network with fewer hops between sources and destinations. The shortening of paths in terms of the number of hops or links has also meant, for what is at the end an infrastructure-bound network, the lengthening of many of these links. In this paper, we focus on an important aspect of the evolving logical connectivity of the Internet that has received little attention to date: intercontinental long-haul links. We develop a methodology and associated processing system for identifying long haul links in traceroute measurements. We apply this system to a large corpus of traceroute data and report on multiple aspects of long haul connectivity including country-level prevalence, routers as international gateways, preferred long-haul destinations, and the evolution of these characteristics over a 7 year period. We identify over 9K layer 3 links that satisfy our definition for intercontinental long haul with many of them terminating in a relatively small number of nodes. An analysis of connected components shows a clearly dominant one with a relative size that remains stable despite a significant growth of the long-haul infrastructure.",
+    topics={submarine, topology}
 }
 
 
@@ -223,7 +241,8 @@ pdf={papers/2023-pam-as2orgplus.pdf},
 code={https://github.com/NU-AquaLab/as2orgplus},
 slides={slides/2023-PAM-as2orgplus.pdf},
 video={https://www.youtube.com/watch?v=o2o67APXiHs},
-google_scholar_id={WF5omc3nYNoC}
+google_scholar_id={WF5omc3nYNoC},
+    topics={as-org}
 }
 
 @InProceedings{jitterbug,
@@ -243,7 +262,8 @@ pdf={papers/2022-pam-jitterbug.pdf},
 code={https://github.com/estcarisimo/jitterbug/},
 slides={slides/2022-pam-jitterbug.pdf},
 video={https://www.youtube.com/watch?v=kCGtuPT1iZA&t=4s},
-google_scholar_id={YsMSGLbcyi4C}
+google_scholar_id={YsMSGLbcyi4C},
+    topics={performance}
 }
 
 @InProceedings{cti,
@@ -263,6 +283,7 @@ pdf={papers/2022-pam-cti.pdf},
 github={https://github.com/CAIDA/mapkit-cti-code},
 award = {Best dataset award},
 google_scholar_id={W7OEmFMy1HYC},
+    topics={government, topology}
 }
 
 
@@ -280,7 +301,8 @@ html={https://dl.acm.org/doi/abs/10.1145/3487552.3487822},
 pdf={papers/2021-imc-state-owned.pdf},
 slides={slides/2021-imc-state-owned.pdf},
 github={https://github.com/estcarisimo/state-owned-ases/},
-google_scholar_id={Y0pCki6q_DkC}
+google_scholar_id={Y0pCki6q_DkC},
+    topics={government, as-org}
 }
 
 
@@ -305,6 +327,7 @@ keywords = {internet eXchange points, Latin America},
 html={https://dl.acm.org/doi/abs/10.1145/3390251.3390255},
 pdf={papers/2020-ccr-latam-ixps.pdf},
 google_scholar_id={2osOgNQ5qMEC},
+    topics={ixp, latam, topology}
 }
 
 @article{carisimo:cores:comcom2019,
@@ -321,7 +344,8 @@ keywords = {Content providers, CDNs, Topology, -cores},
 abstract = {There is recent evidence that the core of the Internet, which was formerly dominated by large transit providers, has been reshaped after the transition to a multimedia-oriented network, first by general-purpose CDNs and now by private CDNs. In this work we use k-cores, an element of graph theory, to define which ASes compose the core of the Internet and to track the evolution of the core since 1999. Specifically, we investigate whether large players in the Internet content and CDN ecosystem belong to the core and, if so, since when. In addition, we examine differences between the IPv4 and IPv6 cores. We further investigate regional differences in the evolution of large content providers. Finally, we show that the core of the Internet has incorporated an increasing number of content ASes in recent years. To enable reproducibility of this work, we provide a website to allow interactive analysis of our datasets to detect, for example, “up and coming” ASes using customized queries.},
 html={https://www.sciencedirect.com/science/article/abs/pii/S0140366418310090?via%3Dihub},
 pdf={papers/2019-comnets-cores.pdf},
-google_scholar_id={Tyk-4Ss8FVUC}
+google_scholar_id={Tyk-4Ss8FVUC},
+    topics={topology}
 }
 
 @INPROCEEDINGS{carisimo:cores:tma2018,  
@@ -357,7 +381,9 @@ location = {Florianopolis, Brazil},
 series = {LANCOMM '16},
 html={https://dl.acm.org/doi/10.1145/2940116.2940118},
 pdf={papers/2016-lancomm-latam.pdf},
-google_scholar_id={u-x6o8ySG0sC}
+google_scholar_id={u-x6o8ySG0sC},
+    topics={topology},
+    topics={topology, latam}
 }
 
 

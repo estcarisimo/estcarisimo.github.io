@@ -6,5 +6,5 @@ overrides:
     gem_version: 1.0.15
     upstream_path: _includes/repository/repo_user.liquid
     upstream_sha256: 6d4ac9171a68514bcd74304bf02c20621f8fa95204a7cd8f69899022a532e0ee
-    local_sha256: 299bab7466a0be7f7a90a648ff9c36e00a5577c6d3ed2eb30a4b0a4b643e75dd
+    local_sha256: fa1ad28e4e1706922dce12d78b3d478eecc97c484fafedd11ac4b3213d9f0bdc
     acknowledged_at: '2026-09-21'

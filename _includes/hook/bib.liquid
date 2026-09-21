@@ -1,0 +1,19 @@
+{%- comment -%}
+  Called by al_folio_core's _layouts/bib.liquid for every entry. Renders the
+  entry's `topics` (ids from _data/publication_topics.yml) as chips. Only on the
+  publications page: the chips link to the bibsearch hash filter, which exists
+  there and not on the about page's selected-papers list.
+{%- endcomment -%}
+{%- if entry.topics and page.url == '/publications/' -%}
+  {%- assign entry_topics = entry.topics | split: ',' -%}
+  <div class="pub-topics">
+    {%- for topic_id in entry_topics -%}
+      {%- assign tid = topic_id | strip -%}
+      {%- for topic in site.data.publication_topics -%}
+        {%- if topic.id == tid -%}
+          <a class="pub-topic" href="#{{ topic.label | downcase }}">{{ topic.label }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endfor -%}
+  </div>
+{%- endif -%}

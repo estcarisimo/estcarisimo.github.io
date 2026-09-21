@@ -1,0 +1,23 @@
+# Topic tags for publications. Reference them from _bibliography/papers.bib with
+# `topics = {id1, id2}`; the label is what appears on the chip and is what the
+# bibsearch filter matches on when a chip is clicked, so keep labels distinct.
+- id: submarine
+  label: Submarine cables
+- id: topology
+  label: Internet topology
+- id: government
+  label: Governments & the Internet
+- id: latam
+  label: Latin America
+- id: as-org
+  label: AS ownership & classification
+- id: llm
+  label: LLMs for measurement
+- id: cloud
+  label: Cloud peering
+- id: ixp
+  label: IXPs
+- id: performance
+  label: Latency & congestion
+- id: darknet
+  label: Darknet traffic

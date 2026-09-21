@@ -18,8 +18,10 @@
     {% comment %} https://github.com/stats-organization/github-stats-extended/blob/master/docs/advanced_documentation.md#available-locales {% endcomment %}
 {% endcase %}
 
-{% comment %} Local override of al_folio_core's repo_user.liquid: adds disable_animations=true, since the
-   stats card fades its text in via CSS animation, which some renderers never run inside <img>. {% endcomment %}
+{% comment %}
+  Local override of al_folio_core's repo_user.liquid: adds disable_animations=true, since the
+  stats card fades its text in via CSS animation, which some renderers never run inside <img>.
+{% endcomment %}
 {% comment %} Defaults to the maintained github-stats-extended fork; override via `external_services.github_readme_stats_url` to self-host. {% endcomment %}
 {% assign stats_url = site.external_services.github_readme_stats_url | default: 'https://github-stats-extended.vercel.app' %}
 
