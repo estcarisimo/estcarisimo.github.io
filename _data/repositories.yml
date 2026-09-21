@@ -7,7 +7,7 @@ github_repos:
   - CoNexDat/LaNet-vi
   - NU-AquaLab/borges
   - estcarisimo/jitterbug
-  - estcarisimo/bayesian_changepoint_detection
+  - hildensia/bayesian_changepoint_detection
   - estcarisimo/smoking-pi
 
 other_services:
