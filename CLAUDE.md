@@ -48,18 +48,26 @@ npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
 
 ### Jekyll Structure
 
+Since the al-folio **v1.2** merge (Sept 2026) the theme runtime is gem-owned
+(`al_folio_core` + `al_*` gems pinned in `Gemfile`). There are no local
+`_layouts/`, `_sass/` or `_plugins/`; a file placed there or in `_includes/`
+overrides the gem copy and must be acknowledged in `.al-folio-overrides.yml`
+(`bundle exec al-folio upgrade overrides accept <path>`). Run
+`bundle exec al-folio upgrade audit --no-fail` after bumping gem pins.
+
 - `_config.yml` - Main site configuration including personal info, social links, and theme settings
-- `_pages/` - Main pages (about, CV, publications, teaching, etc.)
-- `_data/` - YAML data files (cv.yml, repositories.yml, venues.yml, coauthors.yml)
+- `_pages/` - Main pages (about, publications, teaching, etc.)
+- `_data/` - YAML data files (repositories.yml, socials.yml, publication_topics.yml, citations.yml)
 - `_bibliography/` - BibTeX files for publications (papers.bib, students.bib, talks.bib)
-- `_includes/` - Reusable Liquid templates and components
-- `_layouts/` - Page layout templates
-- `_sass/` - Stylesheet files
-- `assets/` - Static assets (images, PDFs, CSS, JS)
+- `_includes/hook/bib.liquid` - Renders per-paper topic chips (called by the gem's bib layout)
+- `_includes/repository/` - Local overrides: `repo_user.liquid` (disable_animations), custom `service_card.liquid`
+- `assets/` - Static assets (images, PDFs)
 
 ### Content Management
 
 - **Publications**: Managed through BibTeX files in `_bibliography/`. Supports additional fields like `pdf`, `slides`, `poster`, `code`, etc.
+  - `topics={id, id}` tags a paper; ids/labels live in `_data/publication_topics.yml` and drive the filter chips on `/publications/`.
+  - `google_scholar_id={...}` enables the citation badge; the id is the suffix of the key in `_data/citations.yml` (auto-updated by the Update Google Scholar Citations action Mon/Wed/Fri).
 - **CV**: Two options - JSON resume format (`assets/json/resume.json`) or YAML format (`_data/cv.yml`)
 - **News**: Individual markdown files in `_news/`
 - **Projects**: Individual markdown files in `_projects/`
