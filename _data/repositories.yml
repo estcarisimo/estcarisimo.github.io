@@ -3,23 +3,18 @@ github_users:
 
 github_repos:
   - estcarisimo/Netflix-OCA-Servers-Locator
-  - estcarisimo/smoking-pi
-  - estcarisimo/jitterbug
-  - NU-AquaLab/borges
+  - josemiotto/pylevy
   - CoNexDat/LaNet-vi
-  - NU-AquaLab/thealeph-mcp
-  - estcarisimo/netcores-mcp
-  - estcarisimo/SirenLedger
+  - NU-AquaLab/borges
+  - estcarisimo/jitterbug
+  - estcarisimo/BGP-Collector-Analysis-Toolkit
+  - estcarisimo/smoking-pi
 
 other_services:
   - name: "The Aleph"
-    description: "Advanced AI research and development platform"
+    description: "Geolocating IP addresses by decoding DNS PTR records with LLMs"
     url: "https://thealeph.ai"
     icon: "fas fa-brain"
-  - name: "NetCores"
-    description: "Network analysis and visualization tools"
-    url: "https://netcores.fi.uba.ar"
-    icon: "fas fa-network-wired"
   - name: "LaNet-vi"
     description: "Large Networks visualization tool"
     url: "https://lanet-vi.fi.uba.ar"
