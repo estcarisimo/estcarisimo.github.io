@@ -12,7 +12,7 @@ Each project links to its own docs. Docs sites publish their own llms.txt.
 - [Jitterbug](https://estcarisimo.github.io/jitterbug/): Python framework (PAM 2022) to infer Internet path congestion from RTT jitter. Install: pip install jitterbug-inference
 - [originet](https://estcarisimo.github.io/originet/): map IP addresses to origin ASNs with CAIDA RouteViews prefix-to-AS snapshots, any date since 2005. Rust CLI and Python bindings. Install: pip install originet
 - [Smoking Pi](https://estcarisimo.github.io/smoking-pi/): SmokePing-based latency and loss monitoring on Raspberry Pi, with Grafana, alerts and an MCP server.
-- [NetCores](https://netcores.fi.uba.ar): website (CoNexDat, UBA) on how Autonomous Systems move toward or away from the Internet's core, from k-core decomposition of CAIDA AS-relationship data since 1998. Site index: https://netcores.fi.uba.ar/llms.txt. MCP server: https://github.com/estcarisimo/netcores-mcp
+- [NetCores](https://netcores.fi.uba.ar): website (CoNexDat, UBA) on how Autonomous Systems move toward or away from the Internet's core, from k-core decomposition of CAIDA AS-relationship data since 1998. MCP server: https://github.com/estcarisimo/netcores-mcp
 - [Netflix OCA Locator](https://github.com/estcarisimo/Netflix-OCA-Servers-Locator): CLI that finds the Netflix Open Connect Appliances serving your connection.
 - [Paperwhite Weather](https://estcarisimo.github.io/paperwhite-weather/): e-ink weather dashboard for a repurposed Kindle Paperwhite.
 - [CABA Espacios Verdes](https://github.com/estcarisimo/caba-espacios-verdes): access to public green space in Buenos Aires (OSM, INDEC 2022, Sentinel-2).
@@ -24,7 +24,7 @@ Each project links to its own docs. Docs sites publish their own llms.txt.
 ## Author, maintained elsewhere
 
 - [LaNet-vi](https://conexdat.github.io/LaNet-vi/): large-network visualization by k-core, k-dense and d-core decomposition. Author; maintained by CoNexDat. Install: pip install lanet-vi
-- [LaNet-vi website](<URL del sitio de LaNet-vi, a confirmar>): LaNet-vi project website (CoNexDat, UBA). Site index: <URL>/llms.txt
+- [LaNet-vi website](https://lanet-vi.fi.uba.ar/): LaNet-vi project website (CoNexDat, UBA). Site index: https://lanet-vi.fi.uba.ar/llms.txt
 
 ## Contributions
 
