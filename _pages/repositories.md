@@ -44,11 +44,76 @@ nav_order: 4
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
 </div>
-
-<p class="caption text-muted small">
-  originet is installable from PyPI (<code>pip install originet</code>) and crates.io (<code>cargo install originet --locked</code>).
-</p>
 {% endif %}
+
+## Packages
+
+<style>
+  .package-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0.25rem 0 1rem;
+  }
+  .package-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.15rem 0.65rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    background: var(--global-card-bg-color);
+    color: var(--global-text-color);
+    font-size: 0.85rem;
+    line-height: 1.5;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .package-chip:hover,
+  .package-chip:focus {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    text-decoration: none;
+  }
+  .package-chip .fab {
+    font-size: 0.9em;
+  }
+  .package-chip-reg {
+    color: var(--global-text-color-light);
+    font-size: 0.75rem;
+  }
+  .package-chip:hover .package-chip-reg,
+  .package-chip:focus .package-chip-reg {
+    color: var(--global-theme-color);
+  }
+</style>
+
+<div class="package-chips">
+  <a class="package-chip" href="https://pypi.org/project/borges/" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-python" aria-hidden="true"></i><span>borges</span><span class="package-chip-reg">PyPI</span>
+  </a>
+  <a class="package-chip" href="https://pypi.org/project/jitterbug-inference/" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-python" aria-hidden="true"></i><span>jitterbug-inference</span><span class="package-chip-reg">PyPI</span>
+  </a>
+  <a class="package-chip" href="https://pypi.org/project/lanet-vi/" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-python" aria-hidden="true"></i><span>lanet-vi</span><span class="package-chip-reg">PyPI</span>
+  </a>
+  <a class="package-chip" href="https://pypi.org/project/levy-stable/" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-python" aria-hidden="true"></i><span>levy-stable</span><span class="package-chip-reg">PyPI</span>
+  </a>
+  <a class="package-chip" href="https://pypi.org/project/bayesian-changepoint/" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-python" aria-hidden="true"></i><span>bayesian-changepoint</span><span class="package-chip-reg">PyPI</span>
+  </a>
+  <a class="package-chip" href="https://pypi.org/project/originet/" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-python" aria-hidden="true"></i><span>originet</span><span class="package-chip-reg">PyPI</span>
+  </a>
+  <a class="package-chip" href="https://crates.io/crates/originet" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-rust" aria-hidden="true"></i><span>originet</span><span class="package-chip-reg">crates.io</span>
+  </a>
+  <a class="package-chip" href="https://estcarisimo.github.io/smoking-pi/packaging/" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-linux" aria-hidden="true"></i><span>smoking-pi</span><span class="package-chip-reg">apt / brew</span>
+  </a>
+</div>
 
 {% if site.data.repositories.other_services %}
 
