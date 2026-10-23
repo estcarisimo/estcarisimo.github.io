@@ -9,6 +9,10 @@ github_repos:
   - estcarisimo/jitterbug
   - hildensia/bayesian_changepoint_detection
   - estcarisimo/smoking-pi
+  - estcarisimo/originet
+  - estcarisimo/state-owned-ases
+  - estcarisimo/paperwhite-weather
+  - estcarisimo/caba-espacios-verdes
 
 other_services:
   - name: "The Aleph"
@@ -19,3 +23,11 @@ other_services:
     description: "Large Networks visualization tool"
     url: "https://lanet-vi.fi.uba.ar"
     icon: "fas fa-network-wired"
+  - name: "TCP Congestion Visualizer"
+    description: "Interactive TCP congestion-control simulator (NewReno, CUBIC, BBR)"
+    url: "https://tcp-congestion-visualizer.pages.dev/"
+    icon: "fas fa-chart-line"
+  - name: "NetCores"
+    description: "How Autonomous Systems move toward or away from the Internet's core (k-core analysis of CAIDA AS-relationship data)"
+    url: "https://netcores.fi.uba.ar"
+    icon: "fas fa-diagram-project"
