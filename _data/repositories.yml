@@ -19,3 +19,10 @@ other_services:
     description: "Large Networks visualization tool"
     url: "https://lanet-vi.fi.uba.ar"
     icon: "fas fa-network-wired"
+  - name: "TCP Congestion Visualizer"
+    description: |
+      An interactive simulator that shows congestion-control algorithms (NewReno, CUBIC, BBR) competing over a router buffer. It covers bufferbloat and shallow-buffer effects and is built for educational purposes.
+
+      Inspired by [Guido Appenzeller's Flash animations on router buffer sizing](https://guido.appenzeller.net/anims/) and by Appenzeller, Keslassy & McKeown, "[Sizing Router Buffers](https://web.stanford.edu/class/cs244/papers/SizingRouterBuffersAppenzeller.pdf)".
+    url: "https://tcp-congestion-visualizer.pages.dev/"
+    icon: "fas fa-chart-line"
