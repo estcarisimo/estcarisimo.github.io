@@ -1,12 +1,40 @@
 ---
 version: 1
 overrides:
+  .github/workflows/axe.yml:
+    owner: alshedivat/al-folio
+    gem_version: "1.2"
+    upstream_path: .github/workflows/axe.yml
+    upstream_sha256: a0bcad8ce0c35869725d2a223b7b06454fc15c0e545ced9e11b4923f8516e28d
+    local_sha256: 5eb6b67efdb4598d1f3bff5d603175c90c4b2d7567d38d4afff26ead9c5ec40e
+    acknowledged_at: "2026-10-23"
+  .github/workflows/broken-links-site.yml:
+    owner: alshedivat/al-folio
+    gem_version: "1.2"
+    upstream_path: .github/workflows/broken-links-site.yml
+    upstream_sha256: 8c256763454e9e497e2b16b90f18698174e0778e0e5688e2cab6a59f1caaadca
+    local_sha256: e066961a0eb0d3fed4a2e2704aebcb4751f9e480bafb427845916f6d09721afd
+    acknowledged_at: "2026-10-23"
+  .github/workflows/copilot-setup-steps.yml:
+    owner: alshedivat/al-folio
+    gem_version: "1.2"
+    upstream_path: .github/workflows/copilot-setup-steps.yml
+    upstream_sha256: db481fb736ac7ad7bd85bac3adbc8313cb9004993dba4df0590ebdb09c10baa9
+    local_sha256: 34fc75c91165abf6adb01183a0afd4e52e00a3bc411cb3d2536cd5dd3a865865
+    acknowledged_at: "2026-10-23"
   .github/workflows/deploy.yml:
     owner: alshedivat/al-folio
     gem_version: "1.2"
     upstream_path: .github/workflows/deploy.yml
     upstream_sha256: 6eacdf2e5f6185db8d044044574b34a993f3139c268daad9577a668bf789ffed
     local_sha256: 38508b4d46c02eaf6dd154ead2068536ec95d73b4701fcdf7d7129574b7f1506
+    acknowledged_at: "2026-10-23"
+  .github/workflows/upgrade-check.yml:
+    owner: alshedivat/al-folio
+    gem_version: "1.2"
+    upstream_path: .github/workflows/upgrade-check.yml
+    upstream_sha256: c99cb35604c2ade184ec678e83cec86100d42795ab47aafb07af2330246dab07
+    local_sha256: c77bd71d596c8e102692b1730a606e317b263f42f5cb16e95c5c64fb65194b38
     acknowledged_at: "2026-10-23"
   _includes/footer.liquid:
     owner: al_folio_core
