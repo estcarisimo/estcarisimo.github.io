@@ -12,11 +12,7 @@
       <h5 class="card-title">{{ service.name }}</h5>
 
       {% if service.description %}
-        {% if service.description contains '](' %}
-          <div class="card-text text-muted flex-grow-1">{{ service.description | markdownify }}</div>
-        {% else %}
-          <p class="card-text text-muted flex-grow-1">{{ service.description }}</p>
-        {% endif %}
+        <p class="card-text text-muted flex-grow-1">{{ service.description }}</p>
       {% endif %}
 
       <div class="mt-auto">
