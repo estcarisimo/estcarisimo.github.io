@@ -51,27 +51,36 @@ nav_order: 4
 ## Web Tools
 
 <style>
+  .web-tools.repositories {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: stretch;
+  }
   .web-tools > .repo {
     display: flex;
     width: 100%;
+    max-width: none;
   }
   .web-tools > .repo > .card {
     width: 100%;
   }
-  .web-tools .card-title,
-  .web-tools .card-text {
+  .web-tools .card-title {
     min-height: 2lh;
   }
+  .web-tools .card-text {
+    min-height: 4.5lh;
+  }
   @media (min-width: 768px) {
-    .web-tools > .repo {
-      flex: 1 1 0;
-      max-width: none;
-      width: auto;
+    .web-tools.repositories {
+      grid-template-columns: 1fr 1fr;
+    }
+    .web-tools .card-text {
+      min-height: 3lh;
     }
   }
 </style>
 
-<div class="web-tools repositories d-flex flex-wrap flex-md-row flex-column align-items-stretch">
+<div class="web-tools repositories">
   {% for service in site.data.repositories.other_services %}
     {% include repository/service_card.liquid service=service %}
   {% endfor %}
@@ -83,3 +92,5 @@ nav_order: 4
   and by Appenzeller, Keslassy &amp; McKeown, '<a href="https://web.stanford.edu/class/cs244/papers/SizingRouterBuffersAppenzeller.pdf" target="_blank" rel="noopener noreferrer">Sizing Router Buffers</a>'.
 </p>
 {% endif %}
+
+{% include repository/software_jsonld.html %}
