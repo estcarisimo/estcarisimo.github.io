@@ -24,7 +24,7 @@ Each project links to its own docs. Docs sites publish their own llms.txt.
 ## Author, maintained elsewhere
 
 - [LaNet-vi](https://conexdat.github.io/LaNet-vi/): large-network visualization by k-core, k-dense and d-core decomposition. Author; maintained by CoNexDat. Install: pip install lanet-vi
-- [LaNet-vi website](https://lanet-vi.fi.uba.ar/): LaNet-vi project website (CoNexDat, UBA).
+- [LaNet-vi website](https://lanet-vi.fi.uba.ar/): LaNet-vi project website (CoNexDat, UBA). Site index: https://lanet-vi.fi.uba.ar/llms.txt
 
 ## Contributions
 
