@@ -44,6 +44,10 @@ nav_order: 4
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
 </div>
+
+<p class="caption text-muted small">
+  originet is installable from PyPI (<code>pip install originet</code>) and crates.io (<code>cargo install originet --locked</code>).
+</p>
 {% endif %}
 
 {% if site.data.repositories.other_services %}

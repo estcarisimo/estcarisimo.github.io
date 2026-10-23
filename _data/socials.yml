@@ -4,6 +4,14 @@
 cv_pdf: /assets/pdf/CV.pdf # path to your CV PDF file
 email: esteban.carisimo@northwestern.edu # your email address
 github_username: estcarisimo # your GitHub user name
+pypi:
+  logo: fab fa-python
+  url: https://pypi.org/user/estcarisimo/
+  title: PyPI
+crates:
+  logo: fab fa-rust
+  url: https://crates.io/users/estcarisimo
+  title: crates.io
 linkedin_username: esteban-carisimo-3a2743135 # your LinkedIn user name
 rss_icon: false # comment this line to hide the RSS icon
 scholar_userid: OOG8shsAAAAJ # your Google Scholar ID

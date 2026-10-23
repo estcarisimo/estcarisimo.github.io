@@ -10,7 +10,7 @@ Each project links to its own docs. Docs sites publish their own llms.txt.
 ## Software (author)
 
 - [Jitterbug](https://estcarisimo.github.io/jitterbug/): Python framework (PAM 2022) to infer Internet path congestion from RTT jitter. Install: pip install jitterbug-inference
-- [originet](https://estcarisimo.github.io/originet/): map IP addresses to origin ASNs with CAIDA RouteViews prefix-to-AS snapshots, any date since 2005. Rust CLI and Python bindings.
+- [originet](https://estcarisimo.github.io/originet/): map IP addresses to origin ASNs with CAIDA RouteViews prefix-to-AS snapshots, any date since 2005. Rust CLI and Python bindings. Install: pip install originet
 - [Smoking Pi](https://estcarisimo.github.io/smoking-pi/): SmokePing-based latency and loss monitoring on Raspberry Pi, with Grafana, alerts and an MCP server.
 - [NetCores](https://netcores.fi.uba.ar): website (CoNexDat, UBA) on how Autonomous Systems move toward or away from the Internet's core, from k-core decomposition of CAIDA AS-relationship data since 1998. Site index: https://netcores.fi.uba.ar/llms.txt. MCP server: https://github.com/estcarisimo/netcores-mcp
 - [Netflix OCA Locator](https://github.com/estcarisimo/Netflix-OCA-Servers-Locator): CLI that finds the Netflix Open Connect Appliances serving your connection.
