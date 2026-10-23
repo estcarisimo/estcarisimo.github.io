@@ -6,7 +6,7 @@ overrides:
     gem_version: "1.2"
     upstream_path: .github/workflows/deploy.yml
     upstream_sha256: 6eacdf2e5f6185db8d044044574b34a993f3139c268daad9577a668bf789ffed
-    local_sha256: 4ec960fec6588df93c77d7274b1eb5f4c5b38482c0532791fba091092e7af14e
+    local_sha256: 38508b4d46c02eaf6dd154ead2068536ec95d73b4701fcdf7d7129574b7f1506
     acknowledged_at: "2026-10-23"
   _includes/footer.liquid:
     owner: al_folio_core
